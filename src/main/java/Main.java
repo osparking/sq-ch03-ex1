@@ -15,11 +15,11 @@ public class Main {
 		var c = new AnnotationConfigApplicationContext(ProjectConfig.class);
 		var parrot = (Parrot)c.getBean(Parrot.class);
 		
-		ps.println(parrot.getName());
+		ps.println(parrot);
 		
 		var person = (Person)c.getBean(Person.class);
 		
-		ps.println(person.getName());
+		ps.println(person);
 	}
 
 }
