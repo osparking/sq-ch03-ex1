@@ -13,7 +13,7 @@ public class Person {
 		sb.append(name);
 		sb.append("\n");
 		sb.append("애완동물: ");
-		sb.append(parrot == null ? "(없음)" : parrot.toString());
+		sb.append(parrot);
 		
 		return sb.toString();
 	}
