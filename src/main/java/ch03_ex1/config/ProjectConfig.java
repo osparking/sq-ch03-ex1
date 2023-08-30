@@ -12,6 +12,7 @@ public class ProjectConfig {
 	Person person() {
 		var p = new Person();
 		p.setName("철수");
+		p.setParrot(parrot());
 		return p;
 	}
 
