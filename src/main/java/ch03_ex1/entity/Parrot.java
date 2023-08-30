@@ -5,6 +5,10 @@ import lombok.Data;
 @Data
 public class Parrot {
 	private String name;
+	
+	public Parrot() {
+		System.out.println("one parrot created");
+	}
 
 	@Override
 	public String toString() {
